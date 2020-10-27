@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Word Counter</h1>
+
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    
+    <button id="wordButton">What's the word count?</button>
+    <button id="charButton">What's the character count?</button>
+     
+    <input type="checkbox" id="otherSep" name="other-sep" value="other-sep">
+    <label for="other-sep">Count separate words between other separators (ellipsis, dashes, underscores, etc)</label><br>
+    <input type="checkbox" id="otherSpace" name="other-space" value="other-space">
+    <label for="other-sep">Don't count white spaces as characters</label><br>
+ 
+    <p>Word count: <span id="word-count">0</span></p>
+    <p>Character count: <span id="char-count">0</span></p>
+
+    <script src="wc.js"></script>
+</body>
+</html>     
